@@ -5,35 +5,44 @@
 .side{
   width: 300px;
   height: 100vh;
-  background-color:red;
+  background-color:white;
+
 
 }
 .side-head{
   height: 100px;
-  background-color: yellow
+  background-color: yellow;
+  padding: 0 20px;
+  
 }
 .side-main{ 
   height: calc(100vh - 100px);
   background-color:yellowgreen;
+  padding: 0 20px;
 
 }
 .main{
   width: calc(100% - 300px);
-  background-color: white;
+  background-color:honeydew;
+  
 
 }
 
 .main-head{
   height: 100px;
-  background-color: papayawhip;
+  background-color:yellowgreen;
+  padding: 0 40px;
+  
 }
 .main-main{
-  background-color: honeydew;
+  background-color:w;
   height: calc(100vh - 100px - 90px);
+  padding-top: 46px 40px 0;
 }
 .main-fot{
   height: 90px;
   background-color:white;
-  border: solid 1px gray
+  margin: 20 40px;
+  border: 1px solid blanchedalmond;
 }
 
