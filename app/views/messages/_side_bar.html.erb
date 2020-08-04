@@ -1,6 +1,8 @@
 <div class="side-head">
   <div class="name">
-    <a href="#">ネコ心</a>
+    <%= linl_to edit_user_path(current_user) do %>
+      <%= current_user.name %>
+    <% end %>
   </div>
   <div class="c-room">
     <a href="#">チャット作成</a>
